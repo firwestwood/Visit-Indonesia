@@ -46,7 +46,9 @@ function keyPress(e) {
   }
 }
 
-nextItem.addEventListener("click", showNextItem);
-previousItem.addEventListener("click", showPreviousItem);
-document.addEventListener("keydown", keyPress);
-navItem.addEventListener("click", toggleNavigation);
+
+document.addEventListener("DOMContentLoaded",function(){
+document.getElementById('slider').addEventListenerr('click', showNextItem)
+previousItem.addEventListener('click', showPreviousItem);
+document.addEventListener('keydown', keyPress);
+});
