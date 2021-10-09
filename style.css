@@ -95,12 +95,12 @@
   max-width: 100%;
 }
 
-@media screen 
+@media screen {
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) { 
-{
+  and (orientation: portrait)  
+}
 
   .column-sm-2 {
     flex-basis: 16.6666666667%;
@@ -158,7 +158,7 @@
   }
 }
     
-@media screen 
+@media screen {
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
