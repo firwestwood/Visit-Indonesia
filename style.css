@@ -95,11 +95,12 @@
   max-width: 100%;
 }
 
-@media (min-width: 48rem) {
-  .column-sm-1 {
-    flex-basis: 8.3333333333%;
-    max-width: 8.3333333333%;
-  }
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) { 
+{
 
   .column-sm-2 {
     flex-basis: 16.6666666667%;
@@ -156,10 +157,12 @@
     max-width: 100%;
   }
 }
-@media (min-width: 62rem) {
-  .column-md-1 {
-    flex-basis: 8.3333333333%;
-    max-width: 8.3333333333%;
+    
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {333333%;
   }
 
   .column-md-2 {
